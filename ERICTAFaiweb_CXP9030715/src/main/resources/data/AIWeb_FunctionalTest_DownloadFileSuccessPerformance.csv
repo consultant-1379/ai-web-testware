@@ -1,0 +1,2 @@
+host,jbossServer,filename,configFileLocationOnServer,privateKeyLocation,privateCertLocation,result
+sc1,:8443/autobind/,SERIALNUMBER123.ericsson.com,/ericsson/tor/data/autointegration/files/,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_key.priv,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_SERIALNUMBER123.crt,true

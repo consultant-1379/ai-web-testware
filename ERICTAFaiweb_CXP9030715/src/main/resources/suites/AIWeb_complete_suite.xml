@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AIWeb_Functional">
+	<test name="AIWeb_Functional">
+		<classes>
+			<class name="com.ericsson.nms.security.taf.test.cases.AIWeb_FunctionalTest">
+                <methods>
+                    <include name="downloadTheFileUsingTheSameLogicalNameSerialCombinations" />
+                    <include name="downloadTheFileUsingDifferentLogicalNameSerialCombinations" />
+                    <include name="readFileWhenNoneExists"/>
+                </methods>
+            </class>
+
+<!--             <class name="com.ericsson.nms.security.taf.test.cases.AIWeb_PerformanceTest_MultipleCerts">
+                <methods>
+                    <include name="downloadTheFileUsingTheSameLogicalNameSerialCombinations_MultipleCerts"/>
+                </methods>
+            </class>
+
+            <class name="com.ericsson.nms.security.taf.test.cases.AIWeb_PerformanceTest_SingleCert">
+                <methods>
+                    <include name="downloadTheFileUsingTheSameLogicalNameSerialCombinations"/>
+                </methods>
+            </class>
+ -->
+  		</classes>
+	</test>
+</suite>

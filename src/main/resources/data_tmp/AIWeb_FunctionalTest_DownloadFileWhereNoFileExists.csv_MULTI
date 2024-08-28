@@ -1,0 +1,5 @@
+host,jbossServer,filename,configFileLocationOnServer,privateKeyLocation,privateCertLocation,result
+sc1,https://10.32.226.97:8443/autobind/,SERIALNUMBER123.ericsson.com,/ericsson/tor/data/autointegration/files/,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_key.priv,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_SERIALNUMBER123.crt,true
+sc1,https://10.32.226.97:8443/autobind/,SERIALNUMBER123.ericsson.com,/ericsson/tor/data/autointegration/files/,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_key.priv,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_SERIALNUMBER123.crt,true
+sc2,https://10.32.227.196:8443/autobind/,SERIALNUMBER123.ericsson.com,/ericsson/tor/data/autointegration/files/,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_key.priv,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_SERIALNUMBER123.crt,true
+sc2,https://10.32.227.196:8443/autobind/,SERIALNUMBER123.ericsson.com,/ericsson/tor/data/autointegration/files/,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_key.priv,/ericsson/tor/data/autointegration/files/tmp/aiweb_taf_SERIALNUMBER123.crt,true
